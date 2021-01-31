@@ -15,7 +15,6 @@ a {
 ul {
     list-style: none;
 }
-// Цвет ссылок
 
 .wrapper {
     width: 100%;
@@ -85,7 +84,7 @@ ul {
 
             .banner__slogan {
                 padding-top: 43px;
-                // Стили
+                // Стили текста баннера
                 .banner__slogan_caption {
                     font-family: "Whitney";
                     font-weight: 600;
@@ -142,7 +141,7 @@ ul {
     .advantages__box {
         width: $container;
         margin: 70px 0;
-        // Стили для
+        // Стили для заголока блока Преимущества
         .advantages__caption_box {
             margin-bottom: 50px;
             h1 {
@@ -154,7 +153,7 @@ ul {
                 color: $advantages-palite-color;
             }
         }
-
+        // Стилизация блоков с преимуществами
         .advantages__items {
             display: grid;
             grid-template-columns: 570px 570px;
@@ -164,7 +163,7 @@ ul {
                 display: flex;
                 background: $advantages-item-bg-color;
                 border-radius: $advantages-item-border-radius;
-
+                // Стили для текста с преимуществами
                 .advantages__item_text {
                     padding: 40px 0 43px 43px;
                     p:nth-child(1) {
@@ -247,7 +246,6 @@ ul {
         }
         .registration__item_images {
             width: 100%;
-            position: relative;
 
             .registration__item_map_img {
                 position: relative;
@@ -272,6 +270,7 @@ ul {
         }
     }
 }
+// Модальное окно
 .modal__window_container {
     position: fixed;
     width: 100%;
@@ -302,13 +301,14 @@ ul {
                 color: #2e2d35;
                 margin: 60px 127px 35px 127px;
             }
+            // Стилизация формы
             form {
                 width: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-
+                // Поле email
                 .email__input {
                     margin-bottom: 18px;
                     label {
@@ -335,6 +335,7 @@ ul {
                         line-height: 100%;
                     }
                 }
+                // Поле пароль
                 .passwort__input {
                     label {
                         font-family: "Whitney";
@@ -360,6 +361,7 @@ ul {
                         line-height: 100%;
                     }
                 }
+                // Кнопка отпарвки
                 .submit__btn {
                     margin-top: 34px;
                     button {
@@ -385,6 +387,7 @@ ul {
                     }
                 }
             }
+            // Иконка для закрытия
             .close__form_icon {
                 position: relative;
                 img {
