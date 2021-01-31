@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Landing</title>
+    <!-- Подключение сителей -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Подключение шрифтов -->
+    <link rel="stylesheet" href="./fonts/SegoeUI/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/Whitney/stylesheet.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header__container">
+            <div class="header__box">
+                <nav class="nav__container">
+                    <div class="nav__logo">
+                        <div class="nav__logo_img">
+                            <img src="./svg/logo.svg" alt="Логотип">
+                        </div>
+                        <div class="nav__logo-text">
+                            <img src="./svg/logo_text.svg" alt="TEST">
+                        </div>
+                    </div>
+                    <ul class="nav__menu">
+                        <li class="nav__item">
+                            <a href="#" class="link">Клиентам</a>
+                        </li>
+                        <li class="nav__item">
+                            <div class="login__icon">
+                                <img src="./svg/login.svg" alt="Иконка логина">
+                            </div>
+                            <div class="login__link">
+                                <a href="#" class="link btn">Войти</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="banner__box">
+                    <div class="banner__slogan">
+                        <p class="banner__slogan_caption">
+                            Подбор авто в лизинг по выгодной цене
+                            </>
+                            <p class="banner__slogan_description">
+                                IT платформа по быстрому поиску автомобиля от официальных дилеров РФ
+                            </p>
+                            <div class="banner__slogan_button">
+                                <button id="reg_button"></button>
+                                <label for="reg_button" class="open__popup_btn">Регистрация</label>
+                            </div>
+                    </div>
+                    <div class="banner__image">
+                        <img src="./svg/banner-img.svg" alt="Изображение баннера">
+                    </div>
+                </section>
+            </div>
+        </header>
+        <section class="advantages__container">
+            <div class="advantages__box">
+                <div class="advantages__caption_box">
+                    <h1>Меньше условий – больше возможностей</h1>
+                </div>
+                <section class="advantages__items">
+                    <div class="advantages__item">
+                        <div class="advantages__item_text">
+                            <p>
+                                Экономия времени
+                            </p>
+                            <p>
+                                Дополнительный канал потенциальных клиентов, готовых приобрести автомобиль, без затрат
+                                на
+                                рекламу и маркетинг.
+                            </p>
+                        </div>
+                        <div class="advantages__item_image">
+                            <img src="./svg/advantage_time.svg" alt="Экономия времени">
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__item_text">
+                            <p>
+                                Никаких задержек
+                            </p>
+                            <p>
+                                Вы получаете запросы сразу же после отправки клиентом.
+                            </p>
+                        </div>
+                        <div class="advantages__item_image">
+                            <img src="./svg/advantage_speed.svg" alt="Никаких задержек">
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__item_text">
+                            <p>
+                                Максимальная информативность
+                            </p>
+                            <p>
+                                В каждой заявке указан регион поиска, марка и модель авто, а так же индивидуальные
+                                запросы
+                                клиента.
+                            </p>
+                        </div>
+                        <div class="advantages__item_image">
+                            <img src="./svg/advantage_information.svg" alt="Максимальная информативность">
+                        </div>
+                    </div>
+                    <div class="advantages__item">
+                        <div class="advantages__item_text">
+                            <p>
+                                Удобство общения
+                            </p>
+                            <p>
+                                Для каждого запроса у вас открыт чат
+                                с клиентом с возможностью отправки документов.
+                            </p>
+                        </div>
+                        <div class="advantages__item_image">
+                            <img src="./svg/advantage_chat.svg" alt="Удобство общения">
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+        <section class="registration__container">
+            <div class="registration__box">
+                <div class="registration__item">
+                    <div class="registration__descrtiption">
+                        <h2>Регистрируйся и получай актуальные запросы на автомобили от заинтерисованных клиентов</h2>
+                    </div>
+                    <div class="registration__btn">
+                        <button id="reg_button"></button>
+                        <label for="reg_button" class="open__popup_btn">Регистрация</label>
+                    </div>
+                </div>
+                <div class="registration__item_images">
+                    <div class="registration__item_image">
+                        <div class="registration__item_map_img">
+                            <img src="./img/map.png" alt="">
+                        </div>
+                    </div>
+                    <div class="registration__item_image">
+                        <div class="registration__item_cars_img">
+                            <img src="./img/cars.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal__window_container" style="display: none;">
+            <div class="modal__window_box close_popup" id="close">
+                <div class="modal__window">
+                    <div class="close__form_icon">
+                        <img src="./svg/close.svg" alt="Close">
+                    </div>
+                    <p class="form__caption">Авторизация</p>
+
+                    <form>
+                        <div class="email__input">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Введите e-mail">
+                        </div>
+                        <div class="passwort__input">
+                            <label for="password">Пароль</label>
+                            <input type="password" name="password" id="password" placeholder="Введите пароль">
+                        </div>
+                        <div class="submit__btn">
+                            <button id="login_button"></button>
+                            <label for="login_button">Войти</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Скрипты -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
