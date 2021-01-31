@@ -1,0 +1,374 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Whitney";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header__container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.header__container .header__box {
+  width: 1170px;
+}
+.header__container .header__box .nav__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 98px;
+  color: #fff;
+}
+.header__container .header__box .nav__container .nav__logo {
+  width: 242px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.header__container .header__box .nav__container .nav__logo .nav__logo_img {
+  margin-right: 15.26px;
+}
+.header__container .header__box .nav__container .nav__menu {
+  display: flex;
+}
+.header__container .header__box .nav__container .nav__menu .link {
+  color: #fff;
+  font-family: "Whitney";
+  font-weight: 325;
+  font-style: normal;
+  font-size: 18px;
+}
+.header__container .header__box .nav__container .nav__menu .nav__item:nth-child(1) {
+  margin-right: 99px;
+}
+.header__container .header__box .nav__container .nav__menu .nav__item:nth-child(2) {
+  width: 83px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 13px;
+}
+.header__container .header__box .banner__box {
+  width: 100%;
+  height: 602px;
+  display: flex;
+  flex-direction: row;
+  padding: 57px 0 0 0;
+  position: relative;
+}
+.header__container .header__box .banner__box .banner__slogan {
+  padding-top: 43px;
+}
+.header__container .header__box .banner__box .banner__slogan .banner__slogan_caption {
+  font-family: "Whitney";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 60px;
+  width: 527px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.header__container .header__box .banner__box .banner__slogan .banner__slogan_description {
+  font-family: "Whitney";
+  font-weight: 350;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 31.48px;
+  width: 515px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+.header__container .header__box .banner__box .banner__slogan button {
+  display: none;
+}
+.header__container .header__box .banner__box .banner__slogan label {
+  font-family: "Whitney";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  background: #f25b24;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 60px;
+}
+.header__container .header__box .banner__box .banner__slogan label:hover {
+  cursor: pointer;
+}
+.header__container .header__box .banner__box .banner__image {
+  position: absolute;
+  right: 0;
+}
+
+.advantages__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.advantages__container .advantages__box {
+  width: 1170px;
+  margin: 70px 0;
+}
+.advantages__container .advantages__box .advantages__caption_box {
+  margin-bottom: 50px;
+}
+.advantages__container .advantages__box .advantages__caption_box h1 {
+  font-family: "Whitney";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  color: #2e2d35;
+}
+.advantages__container .advantages__box .advantages__items {
+  display: grid;
+  grid-template-columns: 570px 570px;
+  grid-template-rows: 235px 235px;
+  grid-gap: 30px;
+}
+.advantages__container .advantages__box .advantages__items .advantages__item {
+  display: flex;
+  background: #f6f5f9;
+  border-radius: 6px;
+}
+.advantages__container .advantages__box .advantages__items .advantages__item .advantages__item_text {
+  padding: 40px 0 43px 43px;
+}
+.advantages__container .advantages__box .advantages__items .advantages__item .advantages__item_text p:nth-child(1) {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 29px;
+  color: #2e2d35;
+  margin-bottom: 22px;
+}
+.advantages__container .advantages__box .advantages__items .advantages__item .advantages__item_text p:nth-child(2) {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22.72px;
+  color: #474351;
+  margin-bottom: 22px;
+}
+.advantages__container .advantages__box .advantages__items .advantages__item .advantages__item_image {
+  padding: 21px 10px 21px 0;
+}
+
+.registration__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 185px;
+}
+.registration__container .registration__box {
+  width: 1170px;
+  height: 371px;
+  background: linear-gradient(90deg, #2d1686 0%, #4e33b5 100%);
+  border-radius: 10px;
+  display: flex;
+}
+.registration__container .registration__box .registration__item {
+  padding: 70px 0 70px 70px;
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+}
+.registration__container .registration__box .registration__item .registration__descrtiption h2 {
+  width: 557px;
+  font-family: "Whitney";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 45px;
+  color: #fff;
+  margin-bottom: 46px;
+}
+.registration__container .registration__box .registration__item .registration__btn button {
+  display: none;
+}
+.registration__container .registration__box .registration__item .registration__btn label {
+  font-family: "Whitney";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  background: #f25b24;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 60px;
+}
+.registration__container .registration__box .registration__item .registration__btn label:hover {
+  cursor: pointer;
+}
+.registration__container .registration__box .registration__item_images {
+  width: 100%;
+  position: relative;
+}
+.registration__container .registration__box .registration__item_images .registration__item_map_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.registration__container .registration__box .registration__item_images .registration__item_map_img img {
+  position: absolute;
+  top: 24px;
+  right: 0;
+}
+.registration__container .registration__box .registration__item_images .registration__item_cars_img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.registration__container .registration__box .registration__item_images .registration__item_cars_img img {
+  position: absolute;
+  top: 24px;
+  right: 0;
+}
+
+.modal__window_container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  background: rgba(28, 24, 47, 0.3);
+  z-index: 10000;
+}
+.modal__window_container .modal__window_box {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal__window_container .modal__window_box .modal__window {
+  width: 490px;
+  height: 472px;
+  background: #ffffff;
+  box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+.modal__window_container .modal__window_box .modal__window .form__caption {
+  font-family: "Whitney";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  color: #2e2d35;
+  margin: 60px 127px 35px 127px;
+}
+.modal__window_container .modal__window_box .modal__window form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal__window_container .modal__window_box .modal__window form .email__input {
+  margin-bottom: 18px;
+}
+.modal__window_container .modal__window_box .modal__window form .email__input label {
+  font-family: "Whitney";
+  font-weight: 350;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #474351;
+}
+.modal__window_container .modal__window_box .modal__window form .email__input input {
+  display: block;
+  width: 370px;
+  height: 50px;
+  border: 1px solid #dddae7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-left: 12px;
+  font-family: "Whitney";
+  font-weight: 325;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+}
+.modal__window_container .modal__window_box .modal__window form .passwort__input label {
+  font-family: "Whitney";
+  font-weight: 350;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #474351;
+}
+.modal__window_container .modal__window_box .modal__window form .passwort__input input {
+  display: block;
+  width: 370px;
+  height: 50px;
+  border: 1px solid #dddae7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding-left: 12px;
+  font-family: "Whitney";
+  font-weight: 325;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 100%;
+}
+.modal__window_container .modal__window_box .modal__window form .submit__btn {
+  margin-top: 34px;
+}
+.modal__window_container .modal__window_box .modal__window form .submit__btn button {
+  display: none;
+}
+.modal__window_container .modal__window_box .modal__window form .submit__btn label {
+  font-family: "Whitney";
+  display: block;
+  width: 370px;
+  height: 50px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 100%;
+  background: #f25b24;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 16px 60px;
+}
+.modal__window_container .modal__window_box .modal__window form .submit__btn label:hover {
+  cursor: pointer;
+}
+.modal__window_container .modal__window_box .modal__window .close__form_icon {
+  position: relative;
+}
+.modal__window_container .modal__window_box .modal__window .close__form_icon img {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.modal__window_container .modal__window_box .modal__window .close__form_icon:hover {
+  cursor: pointer;
+}
