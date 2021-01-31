@@ -1,0 +1,267 @@
+@media screen and (max-width: 1170px) {
+    .header__container {
+        .header__box {
+            height: 100%;
+            overflow: hidden;
+
+            .nav__container {
+                justify-content: space-around;
+                height: 60px;
+                padding: 0 10px;
+                .nav__logo {
+                    width: 100%;
+                }
+                .nav__menu {
+                    .nav__item:nth-child(1) {
+                        margin-right: 30px;
+                    }
+                    .nav__item:nth-child(2) {
+                        width: 83px;
+
+                        margin: 0;
+                    }
+                }
+            }
+
+            .banner__box {
+                height: 100%;
+                padding: 40px 0;
+
+                .banner__slogan {
+                    height: 100%;
+                    margin: 0 1rem;
+                    z-index: 10;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .banner__slogan_caption {
+                        font-size: 34px;
+                        line-height: 50px;
+                        width: 100%;
+                        color: $white-color;
+                        margin-bottom: 30px;
+                    }
+                    .banner__slogan_description {
+                        font-size: 16px;
+                        line-height: 20px;
+                        width: 100%;
+                        color: $white-color;
+                        margin-bottom: 60px;
+                    }
+                }
+                .banner__image {
+                    height: 100%;
+                    // background: url("../svg/banner-img.svg") no-repeat;
+                    background-size: cover;
+                    opacity: 0.5;
+                    img {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    .advantages__container {
+        margin: 30px 0;
+        .advantages__box {
+            max-width: 1170px;
+            width: 100%;
+            margin: 0 1rem;
+            .advantages__caption_box {
+                width: 100%;
+                h1 {
+                    font-size: 33px;
+                    line-height: 33px;
+                }
+            }
+            .advantages__items {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                .advantages__item {
+                    position: relative;
+                    max-width: 600px;
+                    width: 100%;
+
+                    .advantages__item_text {
+                        padding: 10px;
+                    }
+                    .advantages__item_image {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+    .registration__container {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 100px;
+        padding: 0 30px;
+
+        .registration__box {
+            width: 100%;
+            display: flex;
+            height: 100%;
+
+            .registration__item {
+                width: 100%;
+                padding: 30px 20px;
+
+                .registration__descrtiption h2 {
+                    width: 500px;
+                    font-size: 28px;
+                }
+            }
+            .registration__item_image {
+                .registration__item_map_img {
+                    position: relative;
+                    height: 100%;
+                    img {
+                        position: absolute;
+                        top: 24px;
+                        right: 0;
+                    }
+                }
+                .registration__item_cars_img {
+                    position: relative;
+                    height: 100%;
+                    img {
+                        width: 500px !important;
+                        background-size: contain;
+                        position: absolute;
+                        top: 24px;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header__container {
+        .banner__box {
+            .banner__image {
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                opacity: 0.5;
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .advantages__container {
+        .advantages__box {
+            .advantages__items {
+                .advantages__item {
+                    position: relative;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    .advantages__item_text {
+                        padding: 10px;
+                    }
+                    .advantages__item_image {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .registration__container {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 100px;
+        padding: 0 1rem;
+
+        .registration__box {
+            width: 100%;
+            display: flex;
+            height: 100%;
+
+            .registration__item {
+                width: 100%;
+                padding: 30px 20px;
+
+                .registration__descrtiption h2 {
+                    width: 100%;
+                    font-size: 29px;
+                    line-height: 30px;
+                }
+            }
+        }
+        .registration__item_images {
+            width: 100%;
+            display: none;
+
+            .registration__item_map_img {
+                img {
+                    display: none;
+                }
+            }
+            .registration__item_cars_img {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .modal__window_container {
+        .modal__window_box {
+            .modal__window {
+                width: 300px;
+                height: 100%;
+                padding-bottom: 20px;
+                .form__caption {
+                    font-size: 28px;
+                    line-height: 30px;
+                    color: #2e2d35;
+                    margin: 14px 14px 30px 25px;
+                }
+                form {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    // Поле email
+                    .email__input {
+                        margin-bottom: 18px;
+                        input {
+                            width: 100%;
+                        }
+                    }
+                    // Поле пароль
+                    .passwort__input {
+                        input {
+                            width: 100%;
+                        }
+                    }
+                    // Кнопка отпарвки
+                    .submit__btn {
+                        margin-top: 34px;
+                        button {
+                            display: none;
+                        }
+                        label {
+                            width: 100%;
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
