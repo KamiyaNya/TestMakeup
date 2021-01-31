@@ -225,7 +225,6 @@ ul {
 }
 .registration__container .registration__box .registration__item_images {
   width: 100%;
-  position: relative;
 }
 .registration__container .registration__box .registration__item_images .registration__item_map_img {
   position: relative;
