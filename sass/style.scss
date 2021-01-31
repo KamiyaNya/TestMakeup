@@ -138,9 +138,10 @@ ul {
     height: 100%;
     display: flex;
     justify-content: center;
+    margin: 70px 0;
     .advantages__box {
         width: $container;
-        margin: 70px 0;
+
         // Стили для заголока блока Преимущества
         .advantages__caption_box {
             margin-bottom: 50px;
@@ -402,3 +403,6 @@ ul {
         }
     }
 }
+
+// Подключение media-запросов
+@import "media.scss";
