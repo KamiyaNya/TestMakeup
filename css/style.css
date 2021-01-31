@@ -124,10 +124,10 @@ ul {
   height: 100%;
   display: flex;
   justify-content: center;
+  margin: 70px 0;
 }
 .advantages__container .advantages__box {
   width: 1170px;
-  margin: 70px 0;
 }
 .advantages__container .advantages__box .advantages__caption_box {
   margin-bottom: 50px;
@@ -370,4 +370,230 @@ ul {
 }
 .modal__window_container .modal__window_box .modal__window .close__form_icon:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 1170px) {
+  .header__container .header__box {
+    height: 100%;
+    overflow: hidden;
+  }
+  .header__container .header__box .nav__container {
+    justify-content: space-around;
+    height: 60px;
+    padding: 0 10px;
+  }
+  .header__container .header__box .nav__container .nav__logo {
+    width: 100%;
+  }
+  .header__container .header__box .nav__container .nav__menu .nav__item:nth-child(1) {
+    margin-right: 30px;
+  }
+  .header__container .header__box .nav__container .nav__menu .nav__item:nth-child(2) {
+    width: 83px;
+    margin: 0;
+  }
+  .header__container .header__box .banner__box {
+    height: 100%;
+    padding: 40px 0;
+  }
+  .header__container .header__box .banner__box .banner__slogan {
+    height: 100%;
+    margin: 0 1rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header__container .header__box .banner__box .banner__slogan .banner__slogan_caption {
+    font-size: 34px;
+    line-height: 50px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .header__container .header__box .banner__box .banner__slogan .banner__slogan_description {
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 60px;
+  }
+  .header__container .header__box .banner__box .banner__image {
+    height: 100%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+  .header__container .header__box .banner__box .banner__image img {
+    display: block;
+  }
+
+  .advantages__container {
+    margin: 30px 0;
+  }
+  .advantages__container .advantages__box {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 1rem;
+  }
+  .advantages__container .advantages__box .advantages__caption_box {
+    width: 100%;
+  }
+  .advantages__container .advantages__box .advantages__caption_box h1 {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .advantages__container .advantages__box .advantages__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .advantages__container .advantages__box .advantages__items .advantages__item {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+  }
+  .advantages__container .advantages__box .advantages__items .advantages__item .advantages__item_text {
+    padding: 10px;
+  }
+  .advantages__container .advantages__box .advantages__items .advantages__item .advantages__item_image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .registration__container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    padding: 0 30px;
+  }
+  .registration__container .registration__box {
+    width: 100%;
+    display: flex;
+    height: 100%;
+  }
+  .registration__container .registration__box .registration__item {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .registration__container .registration__box .registration__item .registration__descrtiption h2 {
+    width: 500px;
+    font-size: 28px;
+  }
+  .registration__container .registration__box .registration__item_image .registration__item_map_img {
+    position: relative;
+    height: 100%;
+  }
+  .registration__container .registration__box .registration__item_image .registration__item_map_img img {
+    position: absolute;
+    top: 24px;
+    right: 0;
+  }
+  .registration__container .registration__box .registration__item_image .registration__item_cars_img {
+    position: relative;
+    height: 100%;
+  }
+  .registration__container .registration__box .registration__item_image .registration__item_cars_img img {
+    width: 500px !important;
+    background-size: contain;
+    position: absolute;
+    top: 24px;
+    right: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .header__container .banner__box .banner__image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.5;
+  }
+  .header__container .banner__box .banner__image img {
+    display: none;
+  }
+
+  .advantages__container .advantages__box .advantages__items .advantages__item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .advantages__container .advantages__box .advantages__items .advantages__item .advantages__item_text {
+    padding: 10px;
+  }
+  .advantages__container .advantages__box .advantages__items .advantages__item .advantages__item_image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .registration__container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
+    padding: 0 1rem;
+  }
+  .registration__container .registration__box {
+    width: 100%;
+    display: flex;
+    height: 100%;
+  }
+  .registration__container .registration__box .registration__item {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .registration__container .registration__box .registration__item .registration__descrtiption h2 {
+    width: 100%;
+    font-size: 29px;
+    line-height: 30px;
+  }
+  .registration__container .registration__item_images {
+    width: 100%;
+    display: none;
+  }
+  .registration__container .registration__item_images .registration__item_map_img img {
+    display: none;
+  }
+  .registration__container .registration__item_images .registration__item_cars_img img {
+    display: none;
+  }
+
+  .modal__window_container .modal__window_box .modal__window {
+    width: 300px;
+    height: 100%;
+    padding-bottom: 20px;
+  }
+  .modal__window_container .modal__window_box .modal__window .form__caption {
+    font-size: 28px;
+    line-height: 30px;
+    color: #2e2d35;
+    margin: 14px 14px 30px 25px;
+  }
+  .modal__window_container .modal__window_box .modal__window form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal__window_container .modal__window_box .modal__window form .email__input {
+    margin-bottom: 18px;
+  }
+  .modal__window_container .modal__window_box .modal__window form .email__input input {
+    width: 100%;
+  }
+  .modal__window_container .modal__window_box .modal__window form .passwort__input input {
+    width: 100%;
+  }
+  .modal__window_container .modal__window_box .modal__window form .submit__btn {
+    margin-top: 34px;
+  }
+  .modal__window_container .modal__window_box .modal__window form .submit__btn button {
+    display: none;
+  }
+  .modal__window_container .modal__window_box .modal__window form .submit__btn label {
+    width: 100%;
+  }
+  .modal__window_container .modal__window_box .modal__window form .submit__btn label:hover {
+    cursor: pointer;
+  }
 }
