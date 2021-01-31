@@ -15,9 +15,12 @@
 
 <body>
     <div class="wrapper">
+        <!-- Шапка сайта -->
         <header class="header__container">
             <div class="header__box">
+                <!-- Меню навигации -->
                 <nav class="nav__container">
+                    <!-- Логотип -->
                     <div class="nav__logo">
                         <div class="nav__logo_img">
                             <img src="./svg/logo.svg" alt="Логотип">
@@ -26,6 +29,7 @@
                             <img src="./svg/logo_text.svg" alt="TEST">
                         </div>
                     </div>
+                    <!-- Ссылки -->
                     <ul class="nav__menu">
                         <li class="nav__item">
                             <a href="#" class="link">Клиентам</a>
@@ -40,6 +44,7 @@
                         </li>
                     </ul>
                 </nav>
+                <!-- Баннер -->
                 <section class="banner__box">
                     <div class="banner__slogan">
                         <p class="banner__slogan_caption">
@@ -48,23 +53,29 @@
                             <p class="banner__slogan_description">
                                 IT платформа по быстрому поиску автомобиля от официальных дилеров РФ
                             </p>
+                            <!-- кнопка регистрация -->
                             <div class="banner__slogan_button">
                                 <button id="reg_button"></button>
                                 <label for="reg_button" class="open__popup_btn">Регистрация</label>
                             </div>
                     </div>
+                    <!-- Svg баннера -->
                     <div class="banner__image">
                         <img src="./svg/banner-img.svg" alt="Изображение баннера">
                     </div>
                 </section>
             </div>
         </header>
+
+        <!-- Секция с преимуществами -->
         <section class="advantages__container">
             <div class="advantages__box">
                 <div class="advantages__caption_box">
                     <h1>Меньше условий – больше возможностей</h1>
                 </div>
+                <!-- Контейнер для блоков -->
                 <section class="advantages__items">
+                    <!-- Сами блоки -->
                     <div class="advantages__item">
                         <div class="advantages__item_text">
                             <p>
@@ -122,10 +133,14 @@
                             <img src="./svg/advantage_chat.svg" alt="Удобство общения">
                         </div>
                     </div>
+                    <!-- конец  блоков -->
                 </section>
             </div>
-
         </section>
+        <!-- Конец блока с преимуществами -->
+
+        <!-- Блок для регистрации -->
+
         <section class="registration__container">
             <div class="registration__box">
                 <div class="registration__item">
@@ -151,6 +166,9 @@
                 </div>
             </div>
         </section>
+        <!-- Конец блока регистрации-->
+
+        <!-- Модальное окно -->
         <div class="modal__window_container" style="display: none;">
             <div class="modal__window_box close_popup" id="close">
                 <div class="modal__window">
@@ -177,7 +195,7 @@
             </div>
         </div>
     </div>
-
+    <!-- Конец модального окна -->
 
     <!-- Скрипты -->
     <script src="./js/script.js"></script>
